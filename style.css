@@ -180,3 +180,19 @@ ul .content::-webkit-scrollbar {
     margin-right: 5px;
     text-decoration: underline;
 }
+
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #000;
+    }
+
+    .wrapper {
+        background-color: #999;
+    }
+
+    .wrapper .info-text {
+        color: #000;
+    }
+}
